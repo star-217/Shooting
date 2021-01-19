@@ -1,4 +1,5 @@
 #include "../../ESGLib.h"
+#include "shot.h"
 
 
 class Player
@@ -16,6 +17,6 @@ private:
 	float speed;
 	SPRITE player;
 	Vector3 position;
-
+	Shot shot;
 
 };

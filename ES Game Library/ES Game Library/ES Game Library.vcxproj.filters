@@ -265,6 +265,9 @@
     <ClCompile Include="Class\Player\Player.cpp">
       <Filter>ソース ファイル\Player</Filter>
     </ClCompile>
+    <ClCompile Include="Class\Player\shot.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameMain.h">
@@ -422,6 +425,9 @@
       <Filter>ヘッダー ファイル\拡張\Direct2D</Filter>
     </ClInclude>
     <ClInclude Include="Class\Player\Player.h">
+      <Filter>ヘッダー ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Player\shot.h">
       <Filter>ヘッダー ファイル\Player</Filter>
     </ClInclude>
   </ItemGroup>

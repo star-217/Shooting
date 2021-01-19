@@ -4,6 +4,7 @@
 #include "GameScene/GameScene.hpp"
 #include "Class/Player/Player.h"
 
+
 class GameMain : public CGameScene {
 public:
 	GameMain() : DefaultFont(GraphicsDevice.CreateDefaultFont())

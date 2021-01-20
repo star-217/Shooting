@@ -4,19 +4,21 @@
 
 void Shot::Initialize() 
 {
-	sprite = GraphicsDevice.CreateSpriteFromFile(_T("player.png"));
+	sprite = GraphicsDevice.CreateSpriteFromFile(_T("stg0729.png"),Color(0,0,255));
+	speed = 15;
+	pos = Vector3(-1000, 0, 0);
 	shot_flag = false;
 }
 
-void Shot::Update(Vector3 player_pos)
+void Shot::Update()
 {
 
+	if (!shot_flag)
+		return;
 
-
-	if(shot_flag) 
-	{
-		Shoot(player_pos);
-	}
+	pos.y -= speed;
+	if (pos.y < -100)
+		shot_flag = false;
 
 
 
@@ -25,15 +27,16 @@ void Shot::Update(Vector3 player_pos)
 void Shot::Draw()
 {
 
-	SpriteBatch.Draw(*sprite, position);
+	SpriteBatch.Draw(*sprite, pos,RectWH(8,8,16,16));
 
 }
 
 void Shot::Shoot(Vector3 player_pos)
 {
-	shot_flag = true;
-	position.y = player_pos.y - speed;
 
-	if (position.y < -20)
-		shot_flag = false;
+	if (!shot_flag) {
+		pos = player_pos;
+		pos.x += 35;
+		shot_flag = true;
+	}
 }

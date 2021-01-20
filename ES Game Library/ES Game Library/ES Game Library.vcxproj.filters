@@ -112,11 +112,14 @@
     <Filter Include="変換用アセット">
       <UniqueIdentifier>{82621faf-8306-44c1-bdbf-bfdd763ca17c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\Player">
-      <UniqueIdentifier>{cae6eeb1-a0b3-4333-8d5d-03b988f1747e}</UniqueIdentifier>
+    <Filter Include="Class">
+      <UniqueIdentifier>{387ab212-197f-4767-955e-e4fd5210f965}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ヘッダー ファイル\Player">
+    <Filter Include="Class\Player">
       <UniqueIdentifier>{f1c3eb8d-fd39-49a5-a03f-54ebf3d2e543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Enemy">
+      <UniqueIdentifier>{40e011eb-32bd-458e-b4a4-207f3c0e85c9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -263,10 +266,19 @@
       <Filter>ソース ファイル\拡張\Direct2D</Filter>
     </ClCompile>
     <ClCompile Include="Class\Player\Player.cpp">
-      <Filter>ソース ファイル\Player</Filter>
+      <Filter>Class\Player</Filter>
     </ClCompile>
     <ClCompile Include="Class\Player\shot.cpp">
-      <Filter>ソース ファイル\Player</Filter>
+      <Filter>Class\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Player\ShotManager.cpp">
+      <Filter>Class\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Enemy\Enemy_pattern.cpp">
+      <Filter>Class\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Enemy\EnemyBase.cpp">
+      <Filter>Class\Enemy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -425,10 +437,19 @@
       <Filter>ヘッダー ファイル\拡張\Direct2D</Filter>
     </ClInclude>
     <ClInclude Include="Class\Player\Player.h">
-      <Filter>ヘッダー ファイル\Player</Filter>
+      <Filter>Class\Player</Filter>
     </ClInclude>
     <ClInclude Include="Class\Player\shot.h">
-      <Filter>ヘッダー ファイル\Player</Filter>
+      <Filter>Class\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Player\ShotManager.h">
+      <Filter>Class\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Enemy\Enemy_pattern.h">
+      <Filter>Class\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Enemy\EnemyBase.h">
+      <Filter>Class\Enemy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

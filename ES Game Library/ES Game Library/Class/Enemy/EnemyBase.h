@@ -8,11 +8,14 @@ public:
 	void Update();
 	void Draw();
 	void GetCollision();
-	void DropItem();
-	void GetScore();
+	int	 DropItem();
+	int GetScore() { return score;};
 
 private:
-	SPRITE enemy;
+
+	int item;
+	RectWH rect;
+	int score;
 
 
 };

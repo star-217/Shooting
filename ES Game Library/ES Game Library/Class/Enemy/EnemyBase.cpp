@@ -1,10 +1,24 @@
 #include "EnemyBase.h"
 
+void EnemyBase::Initialize()
+{
+	item = 0;
+}
+
 void EnemyBase::GetCollision()
 {
 }
 
 int EnemyBase::DropItem()
 {
-	return 0;
+
+  	item = MathHelper_Random(0, 2);
+
+
+	return item;
+}
+
+int EnemyBase::GetScore()
+{
+
 }

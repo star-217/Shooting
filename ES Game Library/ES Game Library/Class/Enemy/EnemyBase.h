@@ -4,14 +4,15 @@
 class EnemyBase
 {
 public:
+
 	void Initialize();
 	void Update();
 	void Draw();
 	void GetCollision();
 	int	 DropItem();
-	int GetScore() { return score;};
+	int  GetScore() { return score;};
 
-private:
+protected:
 
 	int item;
 	RectWH rect;

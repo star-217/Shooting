@@ -3,6 +3,7 @@
 #include "ESGLib.h"
 #include "GameScene/GameScene.hpp"
 #include "Class/Player/Player.h"
+#include "Class/Base/LoadData.h"
 
 
 class GameMain : public CGameScene {

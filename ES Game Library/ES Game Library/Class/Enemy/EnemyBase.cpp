@@ -1,6 +1,6 @@
 #include "EnemyBase.h"
 
-void EnemyBase::Initialize()
+void EnemyBase::Initialize(Vector3 set_pos, int move_ptn)
 {
 	item = 0;
 }

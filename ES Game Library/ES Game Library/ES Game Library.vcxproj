@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Class\Base\LoadData.cpp" />
     <ClCompile Include="Class\Enemy\EnemyBase.cpp" />
     <ClCompile Include="Class\Enemy\Enemy_pattern.cpp" />
     <ClCompile Include="Class\Player\Player.cpp" />
@@ -208,6 +209,9 @@
     <ClCompile Include="Framework\Thread.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Class\Base\FrameCount.h" />
+    <ClInclude Include="Class\Base\LoadData.h" />
+    <ClInclude Include="Class\Base\structlist.h" />
     <ClInclude Include="Class\Enemy\EnemyBase.h" />
     <ClInclude Include="Class\Enemy\Enemy_pattern.h" />
     <ClInclude Include="Class\Player\Player.h" />

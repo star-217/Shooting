@@ -121,6 +121,9 @@
     <Filter Include="Class\Enemy">
       <UniqueIdentifier>{40e011eb-32bd-458e-b4a4-207f3c0e85c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Class\Base">
+      <UniqueIdentifier>{3a7bb2e1-5b68-457b-945b-df667feb079d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameMain.cpp">
@@ -279,6 +282,9 @@
     </ClCompile>
     <ClCompile Include="Class\Enemy\EnemyBase.cpp">
       <Filter>Class\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Base\LoadData.cpp">
+      <Filter>Class\Base</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -450,6 +456,15 @@
     </ClInclude>
     <ClInclude Include="Class\Enemy\EnemyBase.h">
       <Filter>Class\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Base\FrameCount.h">
+      <Filter>Class\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Base\LoadData.h">
+      <Filter>Class\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Base\structlist.h">
+      <Filter>Class\Base</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

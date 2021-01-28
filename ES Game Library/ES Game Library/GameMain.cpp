@@ -2,6 +2,7 @@
 #include "StdAfx.h"
 #include "GameMain.h"
 
+
 /// <summary>
 /// Allows the game to perform any initialization it needs to before starting to run.
 /// This is where it can query for any required services and load all of your content.
@@ -11,7 +12,9 @@ bool GameMain::Initialize()
 {
 	// TODO: Add your initialization logic here
 	WindowTitle(_T("ES Game Library"));
+	LoadData();
 	player.Initialize();
+	
 
 	return true;
 }

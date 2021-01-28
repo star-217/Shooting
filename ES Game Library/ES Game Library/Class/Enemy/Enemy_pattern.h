@@ -1,7 +1,7 @@
 #include "../../ESGLib.h"
-#include "../Enemy/EnemyBase.h"
 
-class EnemyPattern :EnemyBase
+
+class EnemyPattern
 {
 public:
 	void EnemyPattern0(Vector3 pos);
